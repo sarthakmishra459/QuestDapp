@@ -1,0 +1,139 @@
+/* Styling for the container */
+.container {
+  background: #F6F6F2;
+  height: 100vh;
+  
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* Styling for the navbar */
+.navbar {
+  background: #388087;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  
+}
+
+/* Styling for the h1 and h4 tags in the navbar */
+.navbar h1, .navbar h4 {
+  margin: 0;
+}
+
+/* Styling for the Connect Wallet button */
+.navbar button {
+  background: #70ec93;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Styling for the All Quests and Your Quest Statuses headers */
+h2 {
+  margin-top: 20px;
+  text-align: center;
+  color: #6FB3B8;
+}
+
+/* Styling for individual quest cards */
+/* Styling for the card containers to display cards horizontally */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Adjust the gap as needed */
+  justify-content: center;  
+}
+.card-container h4 {
+  text-align: center;
+  margin: 0;
+  justify-content: center;
+}
+.card-container li{
+  list-style: none; 
+}
+/* Styling for individual quest cards */
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  color: #388087;
+  flex: 1;
+  max-width: 300px; /* Limit the maximum width of each card */
+}
+
+
+
+/* Styling for buttons inside the Actions div */
+/* Styling for the container to center content in the "Actions" section */
+.action-container {
+  display: flex;
+  
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+/* Styling for the input text field */
+.quest-input {
+  background: #ccc; /* Grey background */
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+   /* Expand to fill the container */
+}
+
+/* Styling for buttons inside the "Actions" section */
+button {
+  background: #70ec93;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Styling for the create quest form */
+.create-quest-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.create-quest-form input {
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  
+}
+
+.create-quest-form button {
+  background: #70ec93;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
